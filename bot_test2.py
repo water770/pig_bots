@@ -1,2 +1,2 @@
 def choice(round_score, my_score, opponent_score):
-    return round_score <= 10
+    return round_score <= 12
