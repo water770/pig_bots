@@ -6,5 +6,5 @@ def choice(round_score, my_score, opponent_score):
     if opponent_score == my_score:
         return True
     if opponent_score - my_score >= 5 and round_score >= 30:
-        return True
+        return False
 
