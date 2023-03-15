@@ -33,4 +33,4 @@ def choice(round_score, my_score, opponent_score):
 3. Paste your `choice()` function in the box, and then click the green *Propose new file* button.
 4. Click the green *Create pull request* button to submit your bot.
 
-You may submit as many bots as you like, just name each one with a 2, 3, 4, etc., such as `bot_bradfield2.py`.
+You may submit up to 5 bots, just name each one with a 2, 3, 4, etc., such as `bot_bradfield2.py`.
