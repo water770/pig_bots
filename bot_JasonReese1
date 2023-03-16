@@ -5,9 +5,9 @@ def choice(round_score, my_score, opponent_score):
         if round_score < 10:
             return True
     if opponent_score > my_score:
-        if ((opponent_score - my_score) + 5) < round_score:
+        if ((opponent_score - my_score) + 5) > round_score:
             return True
-        if ((opponent_score - my_score) + 5) >= round_score:
+        if ((opponent_score - my_score) + 5) <= round_score:
             return False
         if round_score < 15:
             return True
