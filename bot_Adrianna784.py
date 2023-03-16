@@ -6,5 +6,5 @@ def choice(round_score, my_score, opponent_score):
   
   elif (opponent_score - my_score) > 10:
     return True
-  elif (my_score = opponent_score) >= 14:
+  elif (my_score - opponent_score) >= 14:
     return False
