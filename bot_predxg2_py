@@ -1,6 +1,5 @@
 def choice(round_score, my_score, opponent_score):
-    if player == 1:
-        if my_score <= 18:
+        if my_score <= 10:
             return True
         else:
             return False
