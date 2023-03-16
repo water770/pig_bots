@@ -16,7 +16,7 @@ def choice(round_score, my_score, opponent_score):
             return False
 
     if 10 > (100-opponent_score):
-        if 100 > (opponent_score+score):
+        if 100 > (opponent_score+my_score):
             return True
         else:
             return False
