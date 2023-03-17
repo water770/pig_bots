@@ -1,4 +1,4 @@
-def choice(round_score,my_score, opponent_score)
+def choice(round_score,my_score, opponent_score):
       num = 21
   ##if opponent_score - my_score >= 30:
            ##num = 26
