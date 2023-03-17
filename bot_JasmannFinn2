@@ -1,0 +1,16 @@
+def choice(c,p,o):
+    if o > 78.76 and p < o:
+        if p+c<100:
+            return True
+        else:
+            return False
+    elif p > 81.2:
+        if p+c<100:
+            return True
+        else:
+            return False
+    else:
+        if c < 20:
+            return True
+        else:
+            return False
