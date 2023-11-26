@@ -29,7 +29,7 @@ def choice(round_score, my_score, opponent_score):
 ## Submitting your bot
 
 1. Click the "Add file" button above and choose "Create new file".
-2. In the "Name your file..." box, you *must* name your bot `bot_<username>.py` so it can be identified as belonging to you.
+2. In the "Name your file..." box, you *must* name your bot `bot_username.py` so it can be identified as belonging to you.
 3. Paste your `choice()` function in the box, and then click the green *Propose new file* button.
 4. Click the green *Create pull request* button to submit your bot.
 
