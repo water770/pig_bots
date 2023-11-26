@@ -26,6 +26,10 @@ def choice(round_score, my_score, opponent_score):
     return round_score <= 12
 ```
 
+## Testing
+
+You can use the `pig.py` program to play against your bot and test if it works.
+
 ## Submitting your bot
 
 1. Click the "Add file" button above and choose "Create new file".
