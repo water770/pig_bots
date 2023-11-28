@@ -1,0 +1,11 @@
+def choice(round_score, my_score, opponent_score):
+    if round_score + my_score >= 100:
+        return False
+
+    if my_score >= 71 or opponent_score >= 71:
+        return True
+
+    if abs(my_score - opponent_score)/8 + 21 > round_score:
+        return True
+
+    return False
