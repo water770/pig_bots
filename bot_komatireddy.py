@@ -1,4 +1,6 @@
 def choice(round_score, my_score, opponent_score):
+  if my_score + round_score >= 100:
+      return False
   if my_score > 71:
     return True
   if my_score > opponent_score:
