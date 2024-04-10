@@ -28,7 +28,7 @@ def choice(round_score, my_score, opponent_score):
 
 ## Testing
 
-You can use the `pig.py` program to play against your bot and test if it works.
+You can use the `pig.py` program to play against your bot and test if it works. Replace the `choice()` function with yours.
 
 ## Submitting your bot
 

@@ -1,5 +1,0 @@
-def choice(round_score, my_score, opponent_score):
-    if (opponent_score + round_score >= 100):
-        return False
-    if (my_score >= 71 or opponent_score >= 71 or round_score < 21 + round((my_score - opponent_score) / 8)):
-        return True
