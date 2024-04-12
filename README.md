@@ -6,10 +6,10 @@ All pig bots will play against each other in an epic battle royale. Will your bo
 
 ## Rules
 
-Your function should be named `choice()` and accept three arguments:
+Your submission will consist of one function named `choice()` . The game will pass to the function three arguments:
 
 * `round_score` - the score for the current round
-* `my_score` - the player's current banked score
+* `my_score` - the bot's current banked score
 * `opponent_score` - the opponent's current banked score
 
 The function should return a Boolean representing the choice:
