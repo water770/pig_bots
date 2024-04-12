@@ -29,16 +29,15 @@ def take_turn(player):
         if roll == 1:
             round_score = 0
             break
+        round_score += roll
+        print(f"Current total: {round_score}")
+        if player == 0:
+            c = input("Roll again? (y/n)").lower()
+            if c != "y":
+                break
         else:
-            round_score += roll
-            print(f"Current total: {round_score}")
-            if player == 0:
-                c = input("Roll again? (y/n)").lower()
-                if c != "y":
-                    break
-            else:
-                if not choice(round_score, scores[1], scores[0]):
-                    break
+            if not choice(round_score, scores[1], scores[0]):
+                break
 
     print(f"Points earned this turn: {round_score}")
     input("Turn is over. Press  to continue.")
